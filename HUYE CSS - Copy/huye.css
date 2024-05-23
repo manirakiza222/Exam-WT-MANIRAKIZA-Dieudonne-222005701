@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #2268a9;
+    color: #93df0f;
+    padding: 20px;
+    text-align: center;
+}
+
+.container {
+    padding: 20px;
+    margin: 20px auto;
+    border: 1px solid #24e812;
+    background-color: #1de10f;
+    width: 80%;
+    max-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.service {
+    width: 200px;
+    margin: 10px;
+    text-align: center;
+}
+
+.service img {
+    width: 100%;
+}
+
+
+/* Add hover effects and animations as needed */
+
+.container:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.d {
+    display: flex;
+}
+
+.main {
+    display: flex;
+}
